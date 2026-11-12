@@ -1,0 +1,217 @@
+[
+  {
+    "id": "heimdall-lite",
+    "title": "Heimdall Lite",
+    "period": "Ongoing",
+    "tags": [
+      "security",
+      "ai"
+    ],
+    "tagline": "AI-assisted network intrusion detection lab.",
+    "role": "Developer",
+    "summary": "A laptop-based detection lab that compares Suricata rules with a Random Forest model on malware traffic: botnet C2 beaconing, port scans, SSH brute force, and host sweeps.",
+    "contributions": [
+      "Wrote custom Suricata rules.",
+      "Engineered flow features for the Random Forest model.",
+      "Added Discord alerting in both replay and live modes."
+    ],
+    "stack": [
+      "Suricata",
+      "Random Forest",
+      "Flow features",
+      "Discord alerts"
+    ],
+    "media": [],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/lisamzhr/heimdall-lite"
+      }
+    ]
+  },
+  {
+    "id": "tambak",
+    "title": "Tambak",
+    "event": "Garuda Hacks 7.0",
+    "period": "Jul 2026",
+    "tags": [
+      "ai",
+      "software"
+    ],
+    "tagline": "AI decision support for biofloc aquaculture.",
+    "role": "Backend Developer",
+    "result": "2nd place, Agriculture & Food Systems track",
+    "summary": "An AI-powered platform that helps biofloc fish farmers read their pond and decide what to do next.",
+    "contributions": [
+      "Designed and developed the complete backend system, including API architecture and implementation.",
+      "Implemented API endpoints to handle data processing and communication between the frontend and AI prediction system.",
+      "Developed Random Forest regression models and predictive analytics.",
+      "Implemented pond health scoring and harvest forecasting.",
+      "Built personalised feeding, dosing, and stocking recommendation features."
+    ],
+    "stack": [
+      "Random Forest",
+      "Predictive analytics",
+      "Backend Development",
+      "REST API"
+    ],
+    "media": [],
+    "links": [
+      {
+        "label": "Demo",
+        "url": "https://devpost.com/software/tambak"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/lisamzhr/Tambak-Bokurians"
+      },
+      {
+        "label": "Slide deck",
+        "url": "https://drive.google.com/file/d/1XNUVmfzROo2bUmrK2aZPZBRM1IHjqvo6/view"
+      }
+    ]
+  },
+  {
+    "id": "freedge",
+    "title": "Freedge",
+    "period": "May 2025",
+    "tags": [
+      "software"
+    ],
+    "tagline": "Smart fridge inventory with expiry tracking and AI recipes.",
+    "role": "Main backend developer, team of 4",
+    "summary": "A full-stack web app that tracks what is in your fridge, warns before items expire, and suggests recipes with AI.",
+    "contributions": [
+      "Built the RESTful APIs as main backend developer.",
+      "Deployed on the university lab server with Cloudflare Tunnel and PM2."
+    ],
+    "stack": [
+      "Next.js",
+      "Node.js",
+      "MongoDB"
+    ],
+    "media": [],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/lisamzhr/freedge_finproSBD_Kel17.git"
+      }
+    ]
+  },
+  {
+    "id": "glamour-groove",
+    "title": "Glamour Groove",
+    "period": "Dec 2025",
+    "tags": [
+      "software"
+    ],
+    "tagline": "Full-stack dating simulation game.",
+    "role": "Full-stack developer",
+    "summary": "A dating simulation game with a Java client and a Spring Boot backend that keeps player progress.",
+    "contributions": [
+      "Designed a scalable architecture with Observer, State, Factory, and Singleton patterns.",
+      "Built NPC interaction, an auto-save system, and persistent player data."
+    ],
+    "stack": [
+      "LibGDX (Java)",
+      "Spring Boot",
+      "PostgreSQL"
+    ],
+    "media": [],
+    "links": [
+      {
+        "label": "Demo",
+        "url": "https://devpost.com/software/glamour-groove"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/lisamzhr/Finpro_OOP"
+      }
+    ]
+  },
+  {
+    "id": "edventure",
+    "title": "Edventure",
+    "event": "Garuda Hacks 6.0",
+    "period": "Jul 2025",
+    "tags": [
+      "ai",
+      "software"
+    ],
+    "tagline": "AI matching for scholarships, internships, and competitions.",
+    "role": "Developer, database and backend",
+    "summary": "A platform that matches students to opportunities based on their profile and CV.",
+    "contributions": [
+      "Built the database and backend with Firebase and Qdrant, together with the team.",
+      "Implemented CV analysis.",
+      "Implemented a real-time recommendation engine with intelligent filtering."
+    ],
+    "stack": [
+      "Firebase",
+      "Qdrant"
+    ],
+    "media": [],
+    "links": [
+      {
+        "label": "Devpost",
+        "url": "https://devpost.com/software/edventure-58v7wx"
+      }
+    ]
+  },
+  {
+    "id": "smart-iot",
+    "title": "AI-Powered Smart IoT System",
+    "event": "Samsung Innovation Campus Batch 6",
+    "period": "Apr 2025",
+    "tags": [
+      "ai",
+      "hardware"
+    ],
+    "tagline": "ESP32 meets OpenAI and YOLO.",
+    "role": "Developer",
+    "summary": "An IoT system where an ESP32 talks to OpenAI, and an ESP32-CAM detects objects with YOLO.",
+    "contributions": [
+      "Integrated the OpenAI API with ESP32 for AI-driven control and responses.",
+      "Ran YOLO-based object detection on ESP32-CAM and stored results in MongoDB Atlas.",
+      "Built a real-time monitoring dashboard with Streamlit and Ubidots using ultrasonic, DHT11, and soil moisture sensors."
+    ],
+    "stack": [
+      "ESP32",
+      "ESP32-CAM",
+      "YOLO",
+      "Streamlit",
+      "MongoDB Atlas"
+    ],
+    "media": [],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/putriayupm/UNI505_Stage3_Assignment1"
+      }
+    ]
+  },
+  {
+    "id": "kri-robots",
+    "title": "Competition robots, KRI (KRTMI)",
+    "event": "Team Astro, Kombo",
+    "period": "May 2024",
+    "tags": [
+      "hardware"
+    ],
+    "tagline": "SCARA and ferris-wheel mechanism robots.",
+    "role": "Junior mechanical staff",
+    "result": "3rd place, Kontes Robot Tematik Indonesia",
+    "summary": "Robots built for the national robotics contest, competing against 300+ teams.",
+    "contributions": [
+      "Assisted in developing SCARA-based and ferris-wheel mechanism robots with actuators.",
+      "Designed and fabricated robot structures from metal, with 3-wheel and mecanum drive systems.",
+      "Modelled parts and ran stress analysis in Autodesk Inventor."
+    ],
+    "stack": [
+      "Autodesk Inventor",
+      "Mechanical design"
+    ],
+    "media": [],
+    "links": []
+  }
+]

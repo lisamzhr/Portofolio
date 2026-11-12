@@ -1,0 +1,72 @@
+{
+  "gallery": [],
+  "awards": [
+    {
+      "id": "garuda-hacks-7",
+      "title": "2nd place",
+      "event": "Agriculture & Food Systems Track, Garuda Hacks 7.0",
+      "date": "Jul 2026",
+      "photos": [
+        "assets/awards/garuda-hacks-7/G1.jpg",
+        "assets/awards/garuda-hacks-7/G2.jpg"
+      ],
+      "link": "https://www.linkedin.com/in/khalisazm/overlay/Honor/430529264/treasury/?profileId=ACoAAEWrLSYBFFgPmi7EgFq5rc8RLdCqn1J9V4U"
+    },
+    {
+      "id": "best-performance-bem",
+      "title": "Best Performance",
+      "event": "Academic & Professional Development, BEM FTUI",
+      "date": "Oct 2025",
+      "photos": [],
+      "link": "https://drive.google.com/file/d/18cN2NkD_B4F3AcpUjviEQb--11Vg4OXU/view?usp=sharing"
+    },
+    {
+      "id": "krtmi-3rd",
+      "title": "3rd place",
+      "event": "Kontes Robot Tematik Indonesia, Team Astro",
+      "date": "Jul 2024",
+      "photos": [
+        "assets/awards/krtmi-3rd/K1.jpg"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "title": "CCNA: Introduction to Networks",
+      "issuer": "Cisco",
+      "link": "https://www.credly.com/badges/c2e01a25-61b8-4aca-b030-b2a6f9364ec6/public_url"
+    },
+    {
+      "title": "CCNA: Switching, Routing, and Wireless Essentials",
+      "issuer": "Cisco",
+      "link": "https://www.credly.com/badges/df710d26-449c-4cb3-add2-54cf9574e44e/public_url"
+    },
+    {
+      "title": "Linux Fundamentals (RH104)",
+      "issuer": "Red Hat",
+      "link": "https://www.credly.com/badges/0c415931-fdbb-447e-9515-7a22ebcd090d"
+    },
+    {
+      "title": "OpenCV Bootcamp",
+      "issuer": "OpenCV University",
+      "link": "https://courses.opencv.org/certificates/95c5b1fa070b4dc48d5b23076aed15a7"
+    },
+    {
+      "title": "Integrating AI to IoT",
+      "issuer": "Samsung Innovation Campus",
+      "link": "https://drive.google.com/file/d/15Hp4J350hg0GJyRCqStZEvf5IN60jKwx/view"
+    }
+  ],
+  "documents": [
+    {
+      "title": "Curriculum Vitae",
+      "file": "assets/docs/CV_KhalisaZM.pdf",
+      "note": "PDF"
+    },
+    {
+      "title": "Transcript",
+      "file": "assets/docs/Transcript.pdf",
+      "note": "PDF"
+    }
+  ]
+}

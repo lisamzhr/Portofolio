@@ -1,0 +1,69 @@
+{
+  "ntu-peak": {
+    "highlights": [
+      "Collaborated with a student team to reduce OPD waiting time for health insurance patients at Mayapada Hospital.",
+      "Led the technical side by refactoring the internal D’Health web system, giving patients and staff real-time visibility into medical process status with limited, secure access.",
+      "Proposed an automated database check in the doctor’s prescribing workflow for pharmacy stock availability, to cut manual verification steps and delays."
+    ],
+    "photos": [
+      { "src": "assets/experience/ntu-peak/Certificate.JPG", "caption": "Certificate" },
+      "assets/experience/ntu-peak/NTU1.jpg",
+      "assets/experience/ntu-peak/NTU2.jpg",
+      "assets/experience/ntu-peak/NTU3.jpg"
+    ]
+    
+  },
+  "digital-lab": {
+    "highlights": [
+      "Deliver hands-on instruction in Algorithms & Programming, Digital System Design, and C Programming across Computer, Electrical, and Biomedical Engineering.",
+      "Co-developed the practicum curriculum with faculty for 300+ students per cohort.",
+      "Led the Algorithm and Computer Engineering Practicum (International Class), mentoring exchange students from France, Turkey, and other countries.",
+      "Support the maintenance and accessibility of lab resources, including servers and FPGA systems."
+    ],
+    "photos": [
+      "assets/experience/digital-lab/D1.jpg",
+      "assets/experience/digital-lab/D2.jpg"
+    ]
+  },
+  "bem-ftui": {
+    "highlights": [
+      "Led publication strategy for the Academic & Professional Division, managing and designing visual content for @bemftui and @adkesma.ftui in Figma.",
+      "Reached 29K+ followers and 100K+ total views, with top-performing content above 32K views.",
+      "Steering Committee for Engineering After Campus Series, coordinating with industry partners and faculty stakeholders."
+    ],
+    "photos": [
+      "assets/experience/bem-ftui/B1.jpg",
+      "assets/experience/bem-ftui/B2.jpg"
+    ]
+  },
+  "exercise": {
+    "highlights": [
+      "Designed 3D mechanical components, including a mini robot and microcontroller casing, in Autodesk Inventor.",
+      "Completed DataCamp courses in AI, SQL, and Data Science as part of a structured self-learning curriculum."
+    ],
+    "photos": [
+      "assets/experience/exercise/X1.jpg",
+      "assets/experience/exercise/X2.jpg"
+    ]
+  },
+  "circait": {
+    "highlights": [
+      "Led a 3-day, 2-night academic-industry visit to Faber-Castell, Ajinomoto, and IDTH for 50 university students and 3 faculty members.",
+      "Coordinated end-to-end execution: logistics, partnerships, and scheduling."
+    ],
+    "photos": [
+      "assets/experience/circait/C1.jpg",
+      "assets/experience/circait/C2.jpg"
+    ]
+  },
+  "kombo": {
+    "highlights": [
+      "Contributed to a robot project that placed 3rd in KRI (KRTMI) among 300+ teams nationwide.",
+      "Designed mechanical components in Autodesk Inventor, including 3D modeling and stress analysis."
+    ],
+    "photos": [
+      "assets/experience/kombo/K1.jpg",
+      "assets/experience/kombo/K2.jpg"
+    ]
+  }
+}
