@@ -3,6 +3,8 @@
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   const getJSON = u => fetch(u, { cache: 'no-cache' }).then(r => { if (!r.ok) throw 0; return r.json(); }).catch(() => null);
+  const ytId = u => (String(u).match(/(?:youtu\.be\/|[?&]v=|\/embed\/|\/shorts\/)([\w-]{11})/) || [])[1];
+  const embed = u => ytId(u) ? `https://www.youtube.com/embed/${ytId(u)}` : u;
   $('#year').textContent = new Date().getFullYear();
 
   // Portrait fallback until assets/img/profile.webp exists
@@ -39,10 +41,11 @@
 
   const view = (item) => {
     stage.innerHTML = '';
-    const t = item.type || (/\.pdf$/i.test(item.src) ? 'pdf' : 'image');
+    const t = ytId(item.src) ? 'youtube' : (item.type || (/\.pdf$/i.test(item.src) ? 'pdf' : 'image'));
     let el;
     if (t === 'video') el = Object.assign(document.createElement('video'), { src: item.src, controls: true, autoplay: true });
     else if (t === 'drive') el = Object.assign(document.createElement('iframe'), { src: item.src, title: item.caption || 'Drive media', allow: 'autoplay' });
+    else if (t === 'youtube') el = Object.assign(document.createElement('iframe'), { src: embed(item.src) + '?autoplay=1', title: item.caption || 'Video', allow: 'autoplay; encrypted-media; picture-in-picture', allowFullscreen: true });
     else if (t === 'pdf') { el = Object.assign(document.createElement('iframe'), { src: item.src, title: item.caption || 'Document' }); el.className = 'pdf'; }
     else el = Object.assign(document.createElement('img'), { src: item.src, alt: item.caption || '' });
     stage.append(el);
@@ -56,6 +59,7 @@
     b.className = 'tile';
     b.setAttribute('aria-label', 'Open: ' + (item.caption || item.type));
     if (item.type === 'video') b.innerHTML = `<video src="${esc(item.src)}#t=0.5" preload="metadata" muted playsinline></video><span class="tag">Video</span>`;
+    else if (ytId(item.src)) b.innerHTML = `<img src="https://img.youtube.com/vi/${ytId(item.src)}/hqdefault.jpg" alt="${esc(item.caption)}" loading="lazy"><span class="tag">Video</span>`;
     else if (item.type === 'drive') { b.classList.add('drive'); b.textContent = item.caption || 'Open from Google Drive'; }
     else b.innerHTML = `<img src="${esc(item.src)}" alt="${esc(item.caption)}" loading="lazy">`;
     b.addEventListener('click', () => view(item));

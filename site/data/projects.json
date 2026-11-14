@@ -29,6 +29,27 @@
       }
     ]
   },
+    {
+    "id": "menara",
+    "title": "Menara",
+    "event": "RPL course project, Group 7",
+    "period": "Ongoing",
+    "tags": ["ai", "software", "hardware"],
+    "tagline": "Agentic IoT system that watches a rooftop garden and acts on it safely.",
+    "role": "AI developer and backend design",
+    "summary": "An end-to-end monitoring and automation system for rooftop gardens in tropical microclimates like Jakarta. ESP32 sensor nodes track soil moisture, temperature, humidity, and light. An agentic AI pipeline evaluates each plant zone using live readings, BMKG weather forecasts, and agronomic thresholds, explains its findings in plain language, and issues low-risk irrigation actions behind strict deterministic guardrails.",
+    "contributions": [
+      "Built the AI module: a deterministic rule engine, linear moisture-depletion forecasting, and LLM plain-language advice checked by guardrails and fallback templates.",
+      "Designed the FastAPI backend: sensor ingestion, scheduled zone evaluation, BMKG weather caching, and REST APIs."
+    ],
+    "stack": ["FastAPI", "PostgreSQL + pgvector", "APScheduler", "LLM (Claude)", "BMKG API", "React + TypeScript", "ESP32", "Docker"],
+    "media": [
+      { "type": "image", "src": "assets/projects/menara/M1.png", "caption": "Dashboard" },
+      { "type": "image", "src": "assets/projects/menara/M2.png", "caption": "Monitor" },
+      { "type": "image", "src": "assets/projects/menara/M3.png", "caption": "Actuators" }
+    ],
+    "links": [{ "label": "GitHub", "url": "https://github.com/lisamzhr/G7_RPLProject_Menara" }]
+  },
   {
     "id": "tambak",
     "title": "Tambak",
@@ -39,7 +60,7 @@
       "software"
     ],
     "tagline": "AI decision support for biofloc aquaculture.",
-    "role": "Backend Developer",
+    "role": "AI developer and backend design",
     "result": "2nd place, Agriculture & Food Systems track",
     "summary": "An AI-powered platform that helps biofloc fish farmers read their pond and decide what to do next.",
     "contributions": [
@@ -70,6 +91,24 @@
         "url": "https://drive.google.com/file/d/1XNUVmfzROo2bUmrK2aZPZBRM1IHjqvo6/view"
       }
     ]
+  },
+    {
+    "id": "isyara",
+    "title": "ISYARA",
+    "period": "Jun 2026",
+    "tags": ["ai", "software"],
+    "tagline": "Real-time BISINDO sign language translator.",
+    "role": "UI/UX and frontend lead",
+    "summary": "A two-way communication bridge for BISINDO, Indonesian sign language. Signs from the camera become Indonesian text and spoken voice using YOLO11 word detection with a MediaPipe overlay. Spoken Indonesian becomes text through Whisper. The MVP is deliberately limited to word-level signs and reports 'model unavailable' instead of faking predictions.",
+    "contributions": [
+      "Led the UI/UX and frontend of the translator web app.",
+      "Built a design system: pink-brown palette, Poppins, Material Symbols hand icons, and pill buttons.",
+      "Designed the fullscreen camera translator and a bento-grid landing page with a mascot video.",
+      "Built the floating ISYAR-AI chatbot widget (Groq API)."
+    ],
+    "stack": ["Django", "FastAPI", "YOLO11", "MediaPipe", "Whisper", "PostgreSQL"],
+    "media": [{ "type": "video", "src": "assets/projects/isyara/I1.mp4", "caption": "Demo" }],
+    "links": [{ "label": "GitHub", "url": "https://github.com/kamali-pirade/isyara" }]
   },
   {
     "id": "freedge",
@@ -182,7 +221,9 @@
       "Streamlit",
       "MongoDB Atlas"
     ],
-    "media": [],
+    "media": [
+      { "type": "drive", "src": "https://drive.google.com/file/d/1LD9XDTb34X81uUc7aGr7cy3-WKrP2KDL/preview", "caption": "Demo" }
+    ],
     "links": [
       {
         "label": "GitHub",
@@ -211,7 +252,9 @@
       "Autodesk Inventor",
       "Mechanical design"
     ],
-    "media": [],
+    "media": [
+      { "type": "drive", "src": "https://drive.google.com/file/d/1FcB1XlG3UF8OqrZBYmsOUoBL98ZJQ5cm/preview", "caption": "Demo" }
+    ],
     "links": []
   }
 ]
