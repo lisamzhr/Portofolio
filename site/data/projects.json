@@ -129,7 +129,11 @@
       "Node.js",
       "MongoDB"
     ],
-    "media": [],
+    "media": [
+      { "type": "image", "src": "assets/projects/freedge/F1.png", "caption": "Register" },
+      { "type": "image", "src": "assets/projects/freedge/F2.png", "caption": "Chat bot" },
+      { "type": "image", "src": "assets/projects/freedge/F3.png", "caption": "Item" }
+    ],
     "links": [
       {
         "label": "GitHub",
