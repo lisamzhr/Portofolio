@@ -21,7 +21,9 @@
       "Flow features",
       "Discord alerts"
     ],
-    "media": [],
+    "media": [
+      { "type": "drive", "src": "https://drive.google.com/file/d/1TzawYggHUJCVqKRg2aU5B7R4Q8dW8_QR/preview", "caption": "Demo" }
+    ],
     "links": [
       {
         "label": "GitHub",
